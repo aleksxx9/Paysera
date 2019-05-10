@@ -1,0 +1,47 @@
+table {
+  margin-top:150px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #b9d9f7;
+}
+
+#user, #type, #operation, #amount, #button, #refresh {
+  position: absolute;
+  top:10px;
+  left:10px;
+  float:left;
+  margin-right:100%;
+}
+
+#text {
+  position:absolute;
+}
+
+#type {
+  margin-top:20px;
+} 
+
+#operation {
+  margin-top:40px;
+} 
+
+#amount {
+  margin-top:60px;
+} 
+
+#button {
+  margin-top:80px;
+}
+#refresh {
+  margin-top:80px;
+  margin-left:55px;
+}

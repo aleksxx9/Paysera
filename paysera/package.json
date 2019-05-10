@@ -1,0 +1,25 @@
+{
+  "name": "paysera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb-es5": "^1.2.0",
+    "eslint-plugin-react": "^7.13.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "node-fetch": "^2.5.0",
+    "path": "^0.12.7",
+    "require": "^2.4.20",
+    "superagent": "^5.0.5"
+  }
+}
