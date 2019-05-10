@@ -1,14 +1,64 @@
 [ 
   { 
     "date": "2019-05-10", 
+    "user_id": 3,
+    "user_type": "juridical",
+    "type": "cash_out", 
+    "operation": {
+      "amount": 55.00,
+      "currency": "EUR"
+    }
+  },  {
+    "date": "2019-05-10",
     "user_id": 1,
     "user_type": "natural",
-    "type": "cash_out", 
+    "type": "cash_out",
+    "operation": {
+      "amount": 9,
+      "currency": "EUR"
+    }
+  },
+  {
+    "date": "2019-05-10",
+    "user_id": 1,
+    "user_type": "natural",
+    "type": "cash_in",
+    "operation": {
+      "amount": 3,
+      "currency": "EUR"
+    }
+  },
+  {
+    "date": "2019-05-10",
+    "user_id": 1,
+    "user_type": "juridical",
+    "type": "cash_out",
+    "operation": {
+      "amount": 5,
+      "currency": "EUR"
+    }
+  },
+  {
+    "date": "2019-05-10",
+    "user_id": 1,
+    "user_type": "natural",
+    "type": "cash_out",
+    "operation": {
+      "amount": 1,
+      "currency": "EUR"
+    }
+  },
+  {
+    "date": "2019-05-10",
+    "user_id": 1,
+    "user_type": "natural",
+    "type": "cash_out",
     "operation": {
       "amount": 0.99,
       "currency": "EUR"
     }
-  },  {
+  },
+  {
     "date": "2019-05-10",
     "user_id": 1,
     "user_type": "juridical",
