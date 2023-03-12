@@ -12,9 +12,9 @@ var cashOutput;
 var text;
 
 function setup() {
-  commision = loadJSON('http://private-38e18c-uzduotis.apiary-mock.com/config/cash-in', getCommision);
-  natural = loadJSON('http://private-38e18c-uzduotis.apiary-mock.com/config/cash-out/natural', getNatural);
-  juridical = loadJSON('http://private-38e18c-uzduotis.apiary-mock.com/config/cash-out/juridical', getJuridical);
+  commision = loadJSON('https://private-38e18c-uzduotis.apiary-mock.com/config/cash-in', getCommision);
+  natural = loadJSON('https://private-38e18c-uzduotis.apiary-mock.com/config/cash-out/natural', getNatural);
+  juridical = loadJSON('https://private-38e18c-uzduotis.apiary-mock.com/config/cash-out/juridical', getJuridical);
   loadData = loadJSON('all', getData);
   drawInput();
 }
